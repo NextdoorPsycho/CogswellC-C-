@@ -1,16 +1,17 @@
 #include <iostream>
 
 int main() {
-    int x;
-    std::string sstring;
-    std::cout << "Type a string: ";
-    getline(std::cin, sstring);
-    std::cout << "Type a number: "; // Type a number and press enter
-    std::cin >> x; // Get user input from the keyboard
+    int num;
+    std::cout << "How many times do you want to print the string?: ";
+    std::cin >> num;
 
-    for (int i = 0; i < x; i++) {
-        std::cout << sstring;
-        std::cout << "\n";
+    std::string str;
+    std::cout << "Please enter a string to print: ";
+    getline(std::cin, str);
+
+    for (int i = 0; i < num; i++) {
+        std::cout << str;
+        std::cout << " \n";
     }
     return 0;
 }
