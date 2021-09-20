@@ -13,8 +13,8 @@ iphlpapi.h
 -
 ws2tcpip.h
 -
-stdio.h
+cstdio
 -
-stdlib.h
+cstdlib
 -
 

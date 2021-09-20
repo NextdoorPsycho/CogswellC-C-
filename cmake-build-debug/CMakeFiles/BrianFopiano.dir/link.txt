@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BrianFopiano.dir/objects.a
+C:\MinGW\mingw32\bin\ar.exe cr CMakeFiles\BrianFopiano.dir/objects.a @CMakeFiles\BrianFopiano.dir\objects1.rsp
+C:\MinGW\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BrianFopiano.dir/objects.a -Wl,--no-whole-archive -o BrianFopiano.exe -Wl,--out-implib,libBrianFopiano.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BrianFopiano.dir\linklibs.rsp
