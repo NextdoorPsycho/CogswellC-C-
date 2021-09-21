@@ -165,7 +165,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled1
+CMAKE_PROJECT_NAME:STATIC=WinsockExample
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/mingw32/bin/ranlib.exe
@@ -246,6 +246,48 @@ CMAKE_STRIP:FILEPATH=C:/MinGW/mingw32/bin/strip.exe
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+CProjecta_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+CProjecta_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+CProjects_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+CProjects_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+Cogswe_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+Cogswe_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+CogswellC-C++_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+CogswellC-C++_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+Cogswell_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+Cogswell_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
+
+//Value Computed by CMake
+WinsockExample_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug
+
+//Value Computed by CMake
+WinsockExample_SOURCE_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++
 
 //Value Computed by CMake
 main.cpp_BINARY_DIR:STATIC=C:/Users/brian/CLionProjects/CogswellC-C++/cmake-build-debug

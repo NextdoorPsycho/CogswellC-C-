@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/BrianFopiano.dir/DependInfo.cmake"
+  "CMakeFiles/WinsockExample.dir/DependInfo.cmake"
   )

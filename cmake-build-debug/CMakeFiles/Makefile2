@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\brian\CLionProjects\CogswellC-C++\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/BrianFopiano.dir/all
+all: CMakeFiles/WinsockExample.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/BrianFopiano.dir/clean
+clean: CMakeFiles/WinsockExample.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BrianFopiano.dir
+# Target rules for target CMakeFiles/WinsockExample.dir
 
 # All Build rule for target.
-CMakeFiles/BrianFopiano.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\brian\CLionProjects\CogswellC-C++\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BrianFopiano"
-.PHONY : CMakeFiles/BrianFopiano.dir/all
+CMakeFiles/WinsockExample.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\brian\CLionProjects\CogswellC-C++\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target WinsockExample"
+.PHONY : CMakeFiles/WinsockExample.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BrianFopiano.dir/rule: cmake_check_build_system
+CMakeFiles/WinsockExample.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\brian\CLionProjects\CogswellC-C++\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BrianFopiano.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WinsockExample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\brian\CLionProjects\CogswellC-C++\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/BrianFopiano.dir/rule
+.PHONY : CMakeFiles/WinsockExample.dir/rule
 
 # Convenience name for target.
-BrianFopiano: CMakeFiles/BrianFopiano.dir/rule
-.PHONY : BrianFopiano
+WinsockExample: CMakeFiles/WinsockExample.dir/rule
+.PHONY : WinsockExample
 
 # clean rule for target.
-CMakeFiles/BrianFopiano.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/clean
-.PHONY : CMakeFiles/BrianFopiano.dir/clean
+CMakeFiles/WinsockExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/clean
+.PHONY : CMakeFiles/WinsockExample.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

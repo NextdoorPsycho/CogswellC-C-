@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BrianFopiano
+# Target rules for targets named WinsockExample
 
 # Build rule for target.
-BrianFopiano: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BrianFopiano
-.PHONY : BrianFopiano
+WinsockExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WinsockExample
+.PHONY : WinsockExample
 
 # fast build rule for target.
-BrianFopiano/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/build
-.PHONY : BrianFopiano/fast
+WinsockExample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/build
+.PHONY : WinsockExample/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BrianFopiano.dir\build.make CMakeFiles/BrianFopiano.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WinsockExample.dir\build.make CMakeFiles/WinsockExample.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BrianFopiano
+	@echo ... WinsockExample
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
